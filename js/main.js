@@ -1,14 +1,11 @@
-$(function () {
-    $("#js-navbar_btn").click(function () {
-        $('body').toggleClass("show");
-    });
-});
+
 
 $(function () {
     $("#js-gnav-btn").click(function () {
         $('body').toggleClass("show");
     });
 });
+
 
 $(function () {
     var loader = $('.loader-wrap');
