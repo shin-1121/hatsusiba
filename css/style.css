@@ -115,8 +115,6 @@ img {
 }
 
 .gnav-list-button a:hover {
-    /* background-color:rgba(red, green, blue, alpha); */
-    /* opacity: 0.7; */
     background-color:#06182c;
 }
 
@@ -170,13 +168,12 @@ img {
     text-align: center;
     margin: 0 auto;
     padding-top: 50px;
-    border: 1px solid red;
+    
 }
 
 
 .gnav-list-item a {
     color: #000;
-    /* border: 1px solid red; */
 }
 .gnav-list-button  {
     margin: 30px auto;
@@ -192,22 +189,9 @@ img {
     position: absolute;
     z-index: 2;
     left: 8%;
-    /* top: 38%; */
 }
 
-@media screen and (max-width: 1200px) { 
-    .main-visual-title{
 
-    }
-
-}
-
-@media screen and (max-width: 980px) { 
-    .main-visual-title{
-
-
-    }
-}
 
 @media screen and (max-width: 580px) { 
     .main-visual-title{
@@ -264,10 +248,9 @@ img {
     }
 }
 
-.swiper-wrapper {
-    width: 78.5%;
-    margin-left: auto;
-    
+.swiper-slide {
+    text-align: right;
+
 }
 
 @media screen and (max-width: 1200px) { 
@@ -286,8 +269,6 @@ img {
     width: 100%;
 
 }
-
-
 
 
 @media screen and (max-width: 580px) { 
@@ -653,10 +634,6 @@ img {
         bottom: -100px;
     }
 }
-    
-
-
-
 
 .topics {
     max-width: 1476px;
@@ -920,7 +897,6 @@ img {
 @media screen and (max-width: 580px) { 
     .concept-img img{
         width: 100%;
-        /* position: absolute; */
     
 
     }
@@ -943,7 +919,6 @@ img {
 
 @media screen and (max-width: 980px) { 
     .concept-title-wrap {
-        /* margin:  60px auto; */
         padding: 0 10px;
         margin-left: -90px;
         margin-bottom: 60px;
@@ -994,8 +969,6 @@ img {
 }
 
 .concept-title-wrap>.red-btn a{
-    /* position: relative; */
-    /* margin-left: 0; */
     margin-top: 100px;
     position: absolute;
     bottom: 0px;
@@ -1048,11 +1021,7 @@ img {
     font-size: 16px;
     font-weight: bold;
 }
-@media screen and (max-width: 980px) { 
-    .concept-text {
-    
-    }
-}
+
 
 @media screen and (max-width: 580px) { 
     .concept-text {
@@ -1349,12 +1318,6 @@ img {
     }
 }
 
-
-@media screen and (max-width: 980px) { 
-    .contact {
-        padding-bottom: 50px;
-    }
-}
 @media screen and (max-width: 580px) { 
     .contact {
         padding: 50px 20px;
@@ -1396,6 +1359,7 @@ img {
     .contact-img-wrapper {
         width: 100%;
         height:  200px;
+        margin-bottom: -20px;
     }
 }
 
